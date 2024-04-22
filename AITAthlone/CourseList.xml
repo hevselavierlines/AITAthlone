@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="app_name">AITAthlone</string>
+<string name="title_section1">Timetable</string>
+<string name="title_section2">News</string>
+<string name="title_section3">Settings</string>
+<string name="hello_world">Hello world!</string>
+<string name="action_settings">Settings</string>
+<string name="title_activity_student">Student</string>
+<string name="title_activity_room">Room</string>
+<string name="title_activity_settings">Settings</string>
+
+<string-array name="course_keys">
+    <item>AL%5F3DMOD%5FQCE</item>
+    <item>AL%5FACCESS%5F6%5F1</item>
+    <item>AL%5FADOBEP%5FCE</item>
+    <item>ssAL%5FBACCT%5FB%5F1</item>
+    <item>AL%5FBACCT%5FB%5F2%20A</item>
+    <item>AL%5FBACCT%5FB%5F2%20B</item>
+    <item>ssAL%5FBACCT%5FB%5F3</item>
+    <item>AL%5FBACCT%5FQCE</item>
+    <item>%23SPLUS83F6C1</item>
+    <item>AL%5FBACCT%5FR%5FY5</item>
+    <item>AL%5FBBABP%5F9%5F5</item>
+    <item>AL%5FBBIBM%5F7%5F3</item>
+    <item>AL%5FBBLAW%5F8%5F1</item>
+    <item>AL%5FBBLAW%5F8%5F2</item>
+    <item>%23SPLUS610092</item>
+    <item>%23SPLUSBED6C8</item>
+    <item>%23SPLUS793B3D</item>
+    <item>%23SPLUS315769</item>
+    <item>%23SPLUSFBDCB1</item>
+    <item>AL%5FBBSTD%5FB%5F4%20A</item>
+    <item>AL%5FBBSTD%5FB%5F4%20B</item>
+    <item>AL%5FBBSTD%5FB%5F4%20C</item>
+    <item>AL%5FBBSTD%5FB%5F4%20D</item>
+    <item>AL%5FBBSTD%5FC%5F1%20A</item>
+    <item>AL%5FBBSTD%5FC%5F1%20B</item>
+    <item>AL%5FBBSTD%5FC%5F2%20A</item>
+    <item>AL%5FBBSTD%5FC%5F2%20B</item>
+    <item>AL%5FBBSTD%5FC%5F2%20C</item>
+    <item>AL%5FBBSTD%5FC%5F2%20D</item>
+    <item>AL%5FBBSTD%5FC%5F2%20E</item>
+    <item>%23SPLUSCE3439</item>
+    <item>%23SPLUSCE343A</item>
+    <item>AL%5FBBSTD%5FD%5F3%20A</item>
+    <item>AL%5FBBSTD%5FD%5F3%20B</item>
+    <item>AL%5FBBSTD%5FD%5F3%20C</item>
+    <item>AL%5FBBSTD%5FD%5F3%20D</item>
+    <item>AL%5FBBSTD%5FD%5F3%20E</item>
+    <item>AL%5FBBSTD%5FG%5F5</item>
+    <item>AL%5FBBSTD%5FR%5F1</item>
+    <item>AL%5FBBSTD%5FR%5F2</item>
+    <item>AL%5FBSVMC%5FQCE</item>
+    <item>AL%5FBDATA%5F8</item>
+    <item>%23SPLUSD91F5A</item>
+    <item>%23SPLUS9D4A89</item>
+    <item>AL%5FBENTR%5F8%5F5</item>
+    <item>AL%5FBENTR%5FOCE</item>
+    <item>ssAL%5FBEQNE%5FC%5F1</item>
+    <item>ssAL%5FBEQNE%5FC%5F2</item>
+    <item>AL%5FBEQNE%5FD%5F3</item>
+    <item>AL%5FBIATI%5FQ%5F1</item>
+    <item>AL%5FBIATI%5FQ%5F2</item>
+    <item>AL%5FBMBUS%5FM%5F5</item>
+    <item>AL%5FBMKSM%5F6%5F1</item>
+    <item>%23SPLUS394707</item>
+    <item>%23SPLUS108E47</item>
+    <item>%23SPLUS61007A</item>
+    <item>%23SPLUSF3ED38</item>
+    <item>%23SPLUS3DF4E5</item>
+    <item>AL%5FBOFIS</item>
+    <item>ssAL%5FBOFIS%5FC%5F2</item>
+    <item>AL%5FBOQLM%5FOCE</item>
+    <item>%23SPLUSD91F59</item>
+    <item>AL%5FBPSYC%5F8%5F2</item>
+    <item>%23SPLUS06EA33</item>
+    <item>%23SPLUSBF757C</item>
+    <item>%23SPLUSC0A85D</item>
+    <item>AL%5FBSMAS%5FQCE</item>
+    <item>%23SPLUS3E5D0B</item>
+    <item>%23SPLUS82A82F</item>
+    <item>%23SPLUS9A1920</item>
+    <item>ssAL%5FBSREC%5FB%5F4</item>
+    <item>ssAL%5FBSREC%5FC%5F1</item>
+    <item>ssAL%5FBSREC%5FC%5F2</item>
+    <item>ssAL%5FBSREC%5FD%5F3</item>
+    <item>%23SPLUS793B1E</item>
+    <item>%23SPLUS41CB71</item>
+    <item>ssAL%5FBSTUD%5FB%5F1</item>
+    <item>ssAL%5FBSTUD%5FB%5F2</item>
+    <item>ssAL%5FBSTUD%5FB%5F3</item>
+    <item>ssAL%5FBSTUD%5FB%5F4</item>
+    <item>AL%5FBTOUR%5F8%5F4</item>
+    <item>AL%5FBWELL%5F8%5F4</item>
+    <item>AL%5FCBUIL%5FO</item>
+    <item>AL%5FCCISC%5FQCE</item>
+    <item>AL%5FCCIVL%5F7%5F1</item>
+    <item>%23SPLUS5CE335</item>
+    <item>AL%5FCCIVL%5F7%5F3</item>
+    <item>AL%5FCTRAN%5FB</item>
+    <item>%23SPLUS717B32</item>
+    <item>%23SPLUS736919</item>
+    <item>ssAL%5FCCIVL%5FC%5F2</item>
+    <item>AL%5FCCMDR%5FO</item>
+    <item>AL%5FCESTI%5FO</item>
+    <item>AL%5FCLEAN%5FO</item>
+    <item>AL%5FCNMGT%5F8</item>
+    <item>AL%5FCPROC%5FO</item>
+    <item>AL%5FDDESN%5FD%5F3</item>
+    <item>AL%5FDDIGM%5F8</item>
+    <item>AL%5FDGRAPH%5F7%5F1</item>
+    <item>AL%5FDGRAPH%5F7%5F2</item>
+    <item>AL%5FDINTR%5FCE</item>
+    <item>%23SPLUS162D7C</item>
+    <item>ssAL%5FDVISC%5FB%5F3</item>
+    <item>ssAL%5FDVISC%5FB%5F4</item>
+    <item>%23SPLUSB0BC94</item>
+    <item>%23SPLUS2AC603</item>
+    <item>%23SPLUS986A86</item>
+    <item>%23SPLUS986A87</item>
+    <item>ssAL%5FEELCE%5FC%5F2</item>
+    <item>%23SPLUSCEC94E</item>
+    <item>%23SPLUS8EE84A</item>
+    <item>%23SPLUS7E8FDF</item>
+    <item>ssAL%5FEELCE%5FC%5F1</item>
+    <item>AL%5FEMACD%5F7%5F1%20A</item>
+    <item>AL%5FEMACD%5F7%5F1%20B</item>
+    <item>AL%5FEMCHC%5F7%5F1</item>
+    <item>%23SPLUS23DAC1</item>
+    <item>%23SPLUS209670</item>
+    <item>%23SPLUS62EC4A</item>
+    <item>AL%5FEMECH%5FD%5F1%20Gp4</item>
+    <item>%23SPLUS15A47F</item>
+    <item>%23SPLUS59A161</item>
+    <item>AL%5FEMECT%5FD%5F1</item>
+    <item>ssAL%5FEMECT%5FD%5F2</item>
+    <item>%23SPLUS9B311B</item>
+    <item>ssAL%5FEMECT%5FD%5F3</item>
+    <item>%23SPLUS374C1B</item>
+    <item>AL%5FEMEPY%5F8%5F2</item>
+    <item>%23SPLUS374C17</item>
+    <item>%23SPLUSA86A74</item>
+    <item>%23SPLUSCE933F</item>
+    <item>%23SPLUSCE9340</item>
+    <item>%23SPLUS15A480</item>
+    <item>AL%5FENGLISH%5FF</item>
+    <item>AL%5FENRHS%5FO%5F1</item>
+    <item>AL%5FEPIMG%5F7</item>
+    <item>%23SPLUS1F13C5</item>
+    <item>%23SPLUSA6C789</item>
+    <item>%23SPLUSA6C791</item>
+    <item>%23SPLUS23125F</item>
+    <item>%23SPLUSF1C0E3</item>
+    <item>%23SPLUSCA7F23</item>
+    <item>%23SPLUSAC9431</item>
+    <item>AL%5FESFTW%5F8%5F1%20A</item>
+    <item>AL%5FESFTW%5F8%5F1%20B</item>
+    <item>AL%5FESFTW%5F8%5F1%20C</item>
+    <item>AL%5FESOFT%5FOCE</item>
+    <item>%23SPLUS9F45D7</item>
+    <item>%23SPLUS9F45D8</item>
+    <item>ssAL%5FEMOBC%5FD%5F2</item>
+    <item>%23SPLUSD8398F</item>
+    <item>%23SPLUS4F9B86</item>
+    <item>AL%5FFCOOK%5F6%5F1</item>
+    <item>AL%5FFCOOK%5F6%5F2</item>
+    <item>%23SPLUSC35CBC</item>
+    <item>%23SPLUS273740</item>
+    <item>%23SPLUSC35CF6</item>
+    <item>%23SPLUSF2BB84</item>
+    <item>AL%5FFCULA%5F7%5F3A</item>
+    <item>AL%5FFCULA%5F7%5F3B</item>
+    <item>%23SPLUSC97AEB</item>
+    <item>%23SPLUS4C3533</item>
+    <item>AL%5FFPBMC%5FCE</item>
+    <item>%23SPLUS231249</item>
+    <item>%23SPLUS009729</item>
+    <item>AL%5FHARTD%5FCE</item>
+    <item>AL%5FHASCP%5FO%5F5</item>
+    <item>AL%5FHCCMT%5F8</item>
+    <item>AL%5FHCHYC%5FR%5F</item>
+    <item>AL%5FHCHYC%5FR%5F6</item>
+    <item>AL%5FHCHYF%5FR%5F1%20FT</item>
+    <item>AL%5FHEYCE%5F7CE%5F1</item>
+    <item>AL%5FHEYCE%5F7CE%5F2</item>
+    <item>AL%5FHEYCE%5F7CE%5F3</item>
+    <item>AL%5FHEYCE%5F7%5F1</item>
+    <item>AL%5FHEYCE%5F7%5F2</item>
+    <item>AL%5FHEYCE%5F7%5F3</item>
+    <item>%23SPLUS65D706</item>
+    <item>%23SPLUSDF8E95</item>
+    <item>%23SPLUSB30E62</item>
+    <item>%23SPLUS7FFACE</item>
+    <item>%23SPLUS41CB61</item>
+    <item>ssAL%5FHSOCP%5FB%5F4</item>
+    <item>%23SPLUS5FADF4</item>
+    <item>AL%5FHSOCS%5F7%5F3</item>
+    <item>AL%5FHSOCS%5F8CE%5F4</item>
+    <item>AL%5FHSOCS%5F8%5F4</item>
+    <item>ssAL%5FHSOCS%5FB%5F1</item>
+    <item>ssAL%5FHSOCS%5FB%5F2</item>
+    <item>ssAL%5FHSOCS%5FB%5F3</item>
+    <item>ssAL%5FHSOCS%5FB%5F4</item>
+    <item>AL%5FHSOCS%5FCCE</item>
+    <item>%23SPLUS70C558</item>
+    <item>AL%5FHSOCS%5FC%5F1</item>
+    <item>ssAL%5FHSOCS%5FC%5F2</item>
+    <item>%23SPLUS30E4D8</item>
+    <item>%23SPLUSA04A55</item>
+    <item>AL%5FKASNG%5FM%5F5%20A</item>
+    <item>AL%5FKASNG%5FM%5F5%20B</item>
+    <item>%23SPLUS4B2DFB</item>
+    <item>AL%5FKCENG%5FD%5F3A</item>
+    <item>AL%5FKCENG%5FD%5F3B</item>
+    <item>%23SPLUS41CB43</item>
+    <item>%23SPLUS411CD8</item>
+    <item>AL%5FKCLDC%5F8%5F3</item>
+    <item>%23SPLUS23126C</item>
+    <item>AL%5FKCOMP%5F8CE%5F2</item>
+    <item>AL%5FKCOMP%5FD</item>
+    <item>ssAL%5FKCOMP%5FD%5F2</item>
+    <item>ssAL%5FKCOMP%5FD%5F3</item>
+    <item>AL%5FKCOMP%5FG%5F5</item>
+    <item>%23SPLUS411CD7</item>
+    <item>AL%5FKGAME%5FB%5F3</item>
+    <item>AL%5FKGAME%5FB%5F4A</item>
+    <item>AL%5FKGAME%5FB%5F4B</item>
+    <item>KNETW%5F8%5FY4</item>
+    <item>AL%5FKNETW%5FD%5F3</item>
+    <item>AL%5FKNTWM%5F7%5F2</item>
+    <item>%23SPLUS79DA98</item>
+    <item>%23SPLUSAAF171</item>
+    <item>%23SPLUS672A20</item>
+    <item>ssAL%5FKSWFT%5FR%5F5</item>
+    <item>AL%5FKWEBD%5FB%5F4</item>
+    <item>%23SPLUS73F99C</item>
+    <item>AL%5FNCHBV%5FG</item>
+    <item>%23SPLUS479741</item>
+    <item>AL%5FNDENT%5F7%5F3</item>
+    <item>%23SPLUS7461C2</item>
+    <item>%23SPLUSE11576</item>
+    <item>AL%5FNEOLC%5FO%5F1</item>
+    <item>AL%5FNGENR%5FB%5F1</item>
+    <item>ssAL%5FNGENR%5FB%5F2</item>
+    <item>ssAL%5FNGENR%5FB%5F3</item>
+    <item>%23SPLUSCEAD53</item>
+    <item>AL%5FNGERO%5FO%5F1</item>
+    <item>%23SPLUS62E6CD</item>
+    <item>ssAL%5FNPSYC%5FB%5F1</item>
+    <item>ssAL%5FNPSYC%5FB%5F2</item>
+    <item>ssAL%5FNPSYC%5FB%5F3</item>
+    <item>ssAL%5FNPSYC%5FB%5F4</item>
+    <item>%23SPLUS6EE4BD</item>
+    <item>%23SPLUSE9D652</item>
+    <item>%23SPLUS6EE4D2</item>
+    <item>%23SPLUSE9D672</item>
+    <item>%23SPLUS2568A7</item>
+    <item>%23SPLUS2B83D8</item>
+    <item>%23SPLUS719336</item>
+    <item>%23SPLUS504032</item>
+    <item>%23SPLUS8A4B56</item>
+    <item>%23SPLUS50408F</item>
+    <item>%23SPLUS503FF0</item>
+    <item>%23SPLUS2089E3</item>
+    <item>%23SPLUS8832D3</item>
+    <item>%23SPLUSA72CB1</item>
+    <item>%23SPLUSF96033</item>
+    <item>%23SPLUSED64C8</item>
+    <item>AL%5FPSYCH%5FO%5F1</item>
+    <item>%23SPLUS73F99A</item>
+    <item>%23SPLUS7215AE</item>
+    <item>%23SPLUS02F0D9</item>
+    <item>%23SPLUS62E6D6</item>
+    <item>AL%5FSBIOT%5F8%5F1</item>
+    <item>AL%5FSBIOT%5F8%5F2</item>
+    <item>AL%5FSBIOT%5F8%5F3</item>
+    <item>%23SPLUS5BF656</item>
+    <item>%23SPLUS91DDE6</item>
+    <item>AL%5FSBIOT%5FD%5F2</item>
+    <item>AL%5FSBIOT%5FD%5F3A</item>
+    <item>AL%5FSBIOT%5FD%5F3B</item>
+    <item>AL%5FSBIOV%5F8%5F1</item>
+    <item>AL%5FSBIOV%5F8%5F2</item>
+    <item>AL%5FSCBHV%5FO</item>
+    <item>SENVM</item>
+    <item>%23SPLUS141E21</item>
+    <item>AL%5FSENVM%5FD%5F3</item>
+    <item>AL%5FSENVM%5FD%5F4</item>
+    <item>AL%5FSENVM%5FM%5F5</item>
+    <item>%23SPLUS9849BB</item>
+    <item>AL%5FSFORX%5F7%5F1</item>
+    <item>AL%5FSFORX%5F7%5F2</item>
+    <item>AL%5FSFORX%5F7%5F3</item>
+    <item>%23SPLUS5BF65F</item>
+    <item>AL%5FSHAID%5F6JN%5F1</item>
+    <item>AL%5FSHAID%5F6JN%5F2</item>
+    <item>AL%5FSHAID%5F6%5F1</item>
+    <item>%23SPLUS5BF68D</item>
+    <item>%23SPLUS4796BA</item>
+    <item>%23SPLUS41FBAA</item>
+    <item>%23SPLUS6F6413</item>
+    <item>AL%5FSNUTR%5F8%5F4</item>
+    <item>AL%5FSOCHS%5FQCE%5F1</item>
+    <item>AL%5FSPHAM%5F7%5F3</item>
+    <item>AL%5FSPHAR%5F8%5F4</item>
+    <item>%23SPLUSCDAFB5</item>
+    <item>%23SPLUS5BF63F</item>
+    <item>%23SPLUS5BF65B</item>
+    <item>%23SPLUS5BF67A</item>
+    <item>AL%5FSPHAR%5FC%5F1</item>
+    <item>%23SPLUSE11577</item>
+    <item>%23SPLUSF38318</item>
+    <item>%23SPLUSF38319</item>
+    <item>%23SPLUSF3831A</item>
+    <item>%23SPLUS1E1563</item>
+    <item>%23SPLUS575DFA</item>
+    <item>%23SPLUSAFE7A4</item>
+    <item>%23SPLUS8B0DC2</item>
+    <item>%23SPLUSDF0CB4</item>
+    <item>%23SPLUSAFE76A</item>
+    <item>%23SPLUS8B0DC1</item>
+    <item>AL%5FSREHAB%5F8%5F4</item>
+    <item>Combined%20Science%20Yr1%20Gp%20A</item>
+    <item>ssAL%5FSSCIE%5FC%5F2</item>
+    <item>ssAL%5FSTOXA%5FB%5F4</item>
+    <item>ssAL%5FSTOXI%5FD%5F3</item>
+    <item>AL%5FSTXFD%5F9%5F5</item>
+    <item>AL%5FTINTL%5FFJN%5FY1</item>
+    <item>%23SPLUS9F6D18</item>
+    <item>%23SPLUS28ABED</item>
+    <item>Cert%20in%20Mental%20Health</item>
+    <item>%23SPLUS2B98BF</item>
+    <item>%23SPLUSA9F064</item>
+    <item>FS%5FCBRIC%5FT</item>
+    <item>%23SPLUSA9F063</item>
+    <item>FS%5FCPLAS%5FT</item>
+    <item>%23SPLUS1AE3A2</item>
+    <item>%23SPLUS1AE3A1</item>
+    <item>FS%5FEHVME%5FT</item>
+    <item>%23SPLUS1A775D</item>
+    <item>%23SPLUSA9F066</item>
+    <item>FS%5FEMOME%5FT</item>
+    <item>%23SPLUSA9F067</item>
+    <item>%23SPLUS7DCF35</item>
+    <item>%23SPLUS1A77C0</item>
+</string-array>
+<string-array name="course_value">
+    <item>AL_3DMOD_QCE 3D Mechanical Modelling</item>
+    <item>AL_ACCESS_6_1 Access Programme</item>
+    <item>AL_ADOBEP_CE Adobe Photoshop</item>
+    <item>AL_BACCT_B_1-Bachelor of Arts (Honours) in Accounting</item>
+    <item>AL_BACCT_B_2-Bachelor of Arts (Honours) in Accounting A</item>
+    <item>AL_BACCT_B_2-Bachelor of Arts (Honours) in Accounting B</item>
+    <item>AL_BACCT_B_3-Bachelor of Arts (Honours) In Accounting</item>
+    <item>AL_BACCT_QCE_1 ACCA Accounting Technician</item>
+    <item>AL_BACCT_QCE_2 - ACCA Accounting Technician/Set</item>
+    <item>AL_BACCT_R_Y5 - MA in Accounting</item>
+    <item>AL_BBABP_9_5 MBS in Advanced Business Practice</item>
+    <item>AL_BBIBM_7_3 BBS in International Business Management</item>
+    <item>AL_BBLAW_8_1 Bachelor of Business and Law</item>
+    <item>AL_BBLAW_8_2 Bachelor of Business and Law</item>
+    <item>AL_BBLAW_8_3 Bachelor of Business and Law</item>
+    <item>AL_BBLAW_8_4 Bachelor of Business and Law</item>
+    <item>AL_BBSTD_8CE_3 Bachelor of Business Studies</item>
+    <item>AL_BBSTD_8CE_4 Bachelor of Business Studies</item>
+    <item>AL_BBSTD_8CE_5 Bachelor of Business Studies</item>
+    <item>AL_BBSTD_B_4-Bachelor of Business (Honours)GpA</item>
+    <item>AL_BBSTD_B_4-Bachelor of Business (Honours)GpB</item>
+    <item>AL_BBSTD_B_4-Bachelor of Business (Honours)GpC</item>
+    <item>AL_BBSTD_B_4-Bachelor of Business (Honours)GpD</item>
+    <item>AL_BBSTD_C_1-Higher Certificate in Business Grp A</item>
+    <item>AL_BBSTD_C_1-Higher Certificate in Business Grp B</item>
+    <item>AL_BBSTD_C_2-Higher Certificate in Business A</item>
+    <item>AL_BBSTD_C_2-Higher Certificate in Business B</item>
+    <item>AL_BBSTD_C_2-Higher Certificate in Business C</item>
+    <item>AL_BBSTD_C_2-Higher Certificate in Business D</item>
+    <item>AL_BBSTD_C_2-Higher Certificate in Business E</item>
+    <item>AL_BBSTD_C_2-Higher Certificate in Business F</item>
+    <item>AL_BBSTD_C_2-Higher Certificate in Business G</item>
+    <item>AL_BBSTD_D_3 - Bachelor of Business Gp A</item>
+    <item>AL_BBSTD_D_3 - Bachelor of Business Gp B</item>
+    <item>AL_BBSTD_D_3 - Bachelor of Business Gp C</item>
+    <item>AL_BBSTD_D_3 - Bachelor of Business Gp D</item>
+    <item>AL_BBSTD_D_3 - Bachelor of Business Gp E</item>
+    <item>AL_BBSTD_G_5 Higher Diploma in Business</item>
+    <item>AL_BBSTD_R_1 Masters of Business Administration</item>
+    <item>AL_BBSTD_R_2 Masters of Business Administration</item>
+    <item>AL_BCIPD_QCE Dip In HR Management</item>
+    <item>AL_BDATA_8 Higher Diploma in Science in Data Analytics</item>
+    <item>AL_BDIGI_7_3 Bachelor of Business in Digital Marketing (add-on)</item>
+    <item>AL_BDIGI_8_4 Bachelor of Business in Digital Marketing</item>
+    <item>AL_BENTR_8_5 Higher Diploma in Entrepreneurship</item>
+    <item>AL_BENTR_OCE Certificate in Entrepreneurship</item>
+    <item>AL_BEQNE_C_1 Higher Certificate in Business in Equine</item>
+    <item>AL_BEQNE_C_2 Higher Certificate in Business in Equine</item>
+    <item>AL_BEQNE_D_3 - Bachelor of Business in Equine</item>
+    <item>AL_BIATI_Q_1_Accounting Technicians Ireland</item>
+    <item>AL_BIATI_Q_2 Accounting Technicians Ireland</item>
+    <item>AL_BMBUS_M_5-Masters in Business Studies</item>
+    <item>AL_BMKSM_6_1 HC in Business in Social Media Marketing</item>
+    <item>AL_BMKSM_6_2 HC in Business in Social Media Marketing</item>
+    <item>AL_BMUSC_C_1-HC in Music and Instument Technology A</item>
+    <item>AL_BMUSC_C_1-HC in Music and Instument Technology B</item>
+    <item>AL_BMUSC_C_2- HC in Music and Instrument Tech A</item>
+    <item>AL_BMUSC_C_2- HC in Music and Instrument Tech B</item>
+    <item>AL_BOFIS_C_1-Higher Certificate in Business in Office Management and Administration</item>
+    <item>AL_BOFIS_C_2--Higher Certificate in Business in Office Management and Administration</item>
+    <item>AL_BOQLM_OCE Certificate in Operations, Quality and Lean Management</item>
+    <item>AL_BPSYC_8_1 BA (Hons) in Business Psychology</item>
+    <item>AL_BPSYC_8_2 BA (Hons) in Business Psychology</item>
+    <item>AL_BSCMP_6_1 Higher Certificate in Business in Computing for Business</item>
+    <item>AL_BSCMP_6_2 Higher Certificate in Business in Computing for Business</item>
+    <item>AL_BSMAS_OCE Cert in Social Media and E-Business</item>
+    <item>AL_BSMAS_QCE Cert in Social Media and Sales</item>
+    <item>AL_BSPMT_D_1 BA in Spa and Wellness Management</item>
+    <item>AL_BSPMT_D_2 BA in Spa and Wellness Management</item>
+    <item>AL_BSPMT_D_3 BA in Spa and Wellness Management</item>
+    <item>AL_BSREC_B_4-Bachelor of Business (Honours) in Tourism and Sport Management</item>
+    <item>AL_BSREC_C_1-Higher Certificate in Business in Sports and Recreation</item>
+    <item>AL_BSREC_C_2a-Higher Certificate in Business Sport and Recreation 2A</item>
+    <item>AL_BSREC_D_3-Bachelor of Business Sport Management</item>
+    <item>AL_BSTDA_6CE_1 Higher Cert in Business</item>
+    <item>AL_BSTDA_6CE_2 Higher Cert in Business</item>
+    <item>AL_BSTUD_B_1-Bachelor of Business Ab Initio</item>
+    <item>AL_BSTUD_B_2-Bachelor of Business Ab Initio</item>
+    <item>AL_BSTUD_B_3-Bachelor of Business Ab Initio</item>
+    <item>AL_BSTUD_B_4-Bachelor of Business Ab Initio</item>
+    <item>AL_BTOUR_8_4-Bachelor of Business (Honours) Tourism and Hospitality Management</item>
+    <item>AL_BWELL_8_4 BB (Hons) Wellness Tourism Management</item>
+    <item>AL_CBUIL_O Certificate in Building Regulations, Implementation and Compliance (L6 SB)</item>
+    <item>AL_CCISC_QCE Cisco Certified Network Assoc</item>
+    <item>AL_CCIVL_7_1 Bachelor of Eng in Civil Engineering</item>
+    <item>AL_CCIVL_7_2 Bachelor of Eng in Civil Engineering</item>
+    <item>AL_CCIVL_7_3 Bachelor of Engineering in Civil Engineering</item>
+    <item>AL_CCIVL_B_4 -BEng(Hons) Civil Engineering</item>
+    <item>AL_CCIVL_B_5 BEng(Hons) Civil Engineering</item>
+    <item>AL_CCIVL_C_1-HC in Engineering in Civil Eng</item>
+    <item>AL_CCIVL_C_2-HC in Civil Eng</item>
+    <item>AL_CCMDR_O Certificate in Contract Management and Dispute Resolution (L7 SB)</item>
+    <item>AL_CESTI_O Certificate in Estimating and Procurement for Building Services (L7 SB)</item>
+    <item>AL_CLEAN_O Certificate in Lean Construction, Scheduling and Control (L6 SB)</item>
+    <item>AL_CNMGT_8BSc (Hons) in Construction Management (L8 SB)</item>
+    <item>AL_CPROC_O Certificate in Procurement and Estimating for Construction (L6 SB)</item>
+    <item>AL_DDESN_D_3-Bachelor of Arts in Design Communications</item>
+    <item>AL_DDIGM_8 Bachelor of Arts (Honours) in Design in Digital Media</item>
+    <item>AL_DGRAPH_7_1 BD in Graphic Design</item>
+    <item>AL_DGRAPH_7_2 BD in Graphic Design</item>
+    <item>AL_DINTR_CE Intro to Interior Design</item>
+    <item>AL_DIPHR_QCE Diploma in HR Practice (CIPD)</item>
+    <item>AL_DVISC_B_3-Bachelor of Arts (Honours) in Design Visual Comms</item>
+    <item>AL_DVISC_B_4-Bachelor of Arts (Honours) in Design Visual Comms</item>
+    <item>AL_EBMFT_8 BSc (Hons) in Energy and Business Management (full-time)</item>
+    <item>AL_EECNF_9 MEng in Energy Communications and Infrastructure</item>
+    <item>AL_EELCE_C_1 Higher Cert Electronics and Computer Engineering Group A</item>
+    <item>AL_EELCE_C_1 Higher Cert Electronics and Computer Engineering Group B</item>
+    <item>AL_EELCE_C_2-Higher Certificate in Engineering in Electronics and Computer Eng</item>
+    <item>AL_EFCSP_O SPA Certificate in Software Engineering</item>
+    <item>AL_EGREN_9 PgDip Green Engineering</item>
+    <item>AL_EICTE_7_1 ICT Engineering Group A</item>
+    <item>AL_EICTE_7_1 ICT Engineering Group B</item>
+    <item>AL_EMACD_7_1 BSc Software Development (Mobile Apps and Connected Devices) year 1 A</item>
+    <item>AL_EMACD_7_1 BSc Software Development (Mobile Apps and Connected Devices) year 1 B</item>
+    <item>AL_EMCHC_7_1 Mechanical, Renewable and Mechatronics Common Entry Engineering Grp 6</item>
+    <item>AL_EMECH_8_4 BEng (Hons) Mechanical Engineering</item>
+    <item>AL_EMECH_C_1 HC in Mechanical Engineering Grp 5</item>
+    <item>AL_EMECH_C_2 HC In Mechanical Engineering</item>
+    <item>AL_EMECH_D_1 BEng Mechanical Level 7 Grp 3</item>
+    <item>AL_EMECH_D_3 Bachelor of Engineering in Mechanical Engineering</item>
+    <item>AL_EMECI_9_5 (2014-2015) MEng in Energy Communications and Infrastructure</item>
+    <item>AL_EMECT_D_1 Bachelor of Eng in Mechatronics Grp 1</item>
+    <item>AL_EMECT_D_2-Bachelor of Engineering in Mechatronics Grp 1</item>
+    <item>AL_EMECT_D_2-Bachelor of Engineering in Mechatronics Grp 2</item>
+    <item>AL_EMECT_D_3-Bachelor of Engineering in Mechatronics</item>
+    <item>AL_EMEPY_8_1 BEng (Hons) Mechanical and Polymer Grp 2</item>
+    <item>AL_EMEPY_8_2 BEng (Hons) Mechanical and Polymer</item>
+    <item>AL_EMERE_D_1 BEng Mechanical Eng and Renewable Energy Grp 4</item>
+    <item>AL_EMERE_D_2 BEng Mechanical Eng and Renewable Energy Grp 1</item>
+    <item>AL_EMERE_D_2 BEng Mechanical Eng and Renewable Energy Grp 2</item>
+    <item>AL_EMERE_D_2 BEng Mechanical Eng and Renewable Energy Grp 3</item>
+    <item>AL_EMERE_D_3 Bachelor of Engineering in Mechanical Engineering and Renewable Energies</item>
+    <item>AL_ENGLISH_F Certificate in English (SPA) Group</item>
+    <item>AL_ENRHS_O_1 SPA Certificate in Energy Efficient Heating System</item>
+    <item>AL_EPIMG_7 BSc in Project Informatics and Management with German</item>
+    <item>AL_EPROJ_6 Higher Certificate in Project Management (SB)</item>
+    <item>AL_EPTMD_6 Certificate in Polymer Technology for Medical Devices A</item>
+    <item>AL_EPTMD_6 Certificate in Polymer Technology for Medical Devices B</item>
+    <item>AL_EQM6S_OCE_1Cert in Quality Management</item>
+    <item>AL_ERENW_7CE_1 BEng Mechanical Eng and Renewable Energy</item>
+    <item>AL_ERENW_7CE_2 BEng Mechanical Eng and Renewable Energy</item>
+    <item>AL_ERHSY_6 Certificate in Renewable Heating Systems</item>
+    <item>AL_ESFTW_8_1 BSc in Software Design A</item>
+    <item>AL_ESFTW_8_1 BSc in Software Design B</item>
+    <item>AL_ESFTW_8_1 BSc in Software Design C</item>
+    <item>AL_ESOFT_OCE Cert in Software Development</item>
+    <item>AL_EWELD_O Cert in Welding Processess for Advanced Manufacturing A</item>
+    <item>AL_EWELD_O Cert in Welding Processess for Advanced Manufacturing B</item>
+    <item>AL_EWIRC_7_2 BEng in Electronics and Wireless Comms</item>
+    <item>AL_EWIRC_7_3 BEng in Electronic and Wireless Communications</item>
+    <item>AL_FAMLW_6CE Cert in Constitutional and Family Law</item>
+    <item>AL_FCOOK_6_1 Prof Cookery Traineeship WBL</item>
+    <item>AL_FCOOK_6_2 Prof Cookery Traineeship WBL</item>
+    <item>AL_FCULA_6 HC in Culinary Arts 1A</item>
+    <item>AL_FCULA_6 HC in Culinary Arts 1B</item>
+    <item>AL_FCULA_6 HC in Culinary Arts 2 A</item>
+    <item>AL_FCULA_6 HC in Culinary Arts 2 B</item>
+    <item>AL_FCULA_7_3 BA in Culinary Arts A</item>
+    <item>AL_FCULA_7_3 BA in Culinary Arts B</item>
+    <item>AL_FHYGI_QCE Primary Course in Food Hygiene</item>
+    <item>AL_FMGT_CE - Mgmt of Food Hygiene</item>
+    <item>AL_FPBMC_CE - Pastry and Bread Making</item>
+    <item>AL_HADDT_8CE_1 BA in Applied Addiction Studies</item>
+    <item>AL_HADDT_DCE_1 BA in Applied Addiction Studies</item>
+    <item>AL_HARTD_CE-Art and Design Portfolio</item>
+    <item>AL_HASCP_9_5 MA in Advanced Social Care Practice</item>
+    <item>AL_HCCMT_8 BA (Hons) in Childcare Management</item>
+    <item>AL_HCHYC_R_5 - MA in Child and Youth Care</item>
+    <item>AL_HCHYC_R_6 - MA in Child and Youth Care</item>
+    <item>AL_HCHYF_R_5 MA in Child and Youth Studies</item>
+    <item>AL_HEYCE_7CE_1 BA in Early Years Care and Education PT</item>
+    <item>AL_HEYCE_7CE_2 BA in Early Years Care and Education PT</item>
+    <item>AL_HEYCE_7CE_3 BA in Early Years Care and Education PT</item>
+    <item>AL_HEYCE_7_1 BA in Early Years Care and Education</item>
+    <item>AL_HEYCE_7_2 BA in Early Years Care and Education</item>
+    <item>AL_HEYCE_7_3 BA in Early Years Care and Education</item>
+    <item>AL_HLANG_B_4 - BA (Hons) in Languages and Bus Admin</item>
+    <item>AL_HLAW_BCE BA in Law 1</item>
+    <item>AL_HLAW_BCE BA in Law 2</item>
+    <item>AL_HLAW_BCE BA in Law 3</item>
+    <item>AL_HLAW_BCE BA in Law 4</item>
+    <item>AL_HSOCP_B_4-Bachelor of Arts (Honours) Social Studies</item>
+    <item>AL_HSOCP_B_5-Bachelor of Arts (Honours) Social Studies</item>
+    <item>AL_HSOCS_7_3 BA in Applied Social Studies in Social Care</item>
+    <item>AL_HSOCS_8CE_4 BA in Social Studies in Social Care</item>
+    <item>AL_HSOCS_8_4 BA (Hons) in Applied Social Studies in Social Care</item>
+    <item>AL_HSOCS_B_1-BA(Honours) in Social Care Practice</item>
+    <item>AL_HSOCS_B_2-Bachelor of Arts (Honours) in Social Care Practice</item>
+    <item>AL_HSOCS_B_3-Bachelor of Arts (Honours)in Social Care Practice</item>
+    <item>AL_HSOCS_B_4-Bachelor of Arts (Honours) in Social Care Practice</item>
+    <item>AL_HSOCS_CCE-HC in Applied Social Studies in Social Care Yr 1 AD ED</item>
+    <item>AL_HSOCS_CCE-HC in Applied Social Studies in Social Care Yr 2</item>
+    <item>AL_HSOCS_C_1-HC in App Soc Stds Social Care</item>
+    <item>AL_HSOCS_C_2-HC in App Soc Stds Social Care</item>
+    <item>AL_HSOCS_DCE 3 BA n Applied Social Studies in Social Care</item>
+    <item>AL_HSOCS_DCE 3 BA n Applied Social Studies in Social Care</item>
+    <item>AL_KASNG_M_5 MSc in Applied Software Engineering A</item>
+    <item>AL_KASNG_M_5 MSc in Applied Software Engineering B</item>
+    <item>AL_KCENG_7_2 BEng in Computer Engineering</item>
+    <item>AL_KCENG_D_3 Bachelor of Engineering in Computer Engineering A</item>
+    <item>AL_KCENG_D_3 Bachelor of Engineering in Computer Engineering B</item>
+    <item>AL_KCISE_QCE CISCO</item>
+    <item>AL_KCLDC_8_2 BSc Software Design Cloud Computing</item>
+    <item>AL_KCLDC_8_3 BSc Software Design Cloud Computing</item>
+    <item>AL_KCOMP_8CE_1 Higher Diploma in Computing</item>
+    <item>AL_KCOMP_8CE_2 Higher Diploma in Computing</item>
+    <item>AL_KCOMP_D_1-Bachelor of Science in Business in Computing</item>
+    <item>AL_KCOMP_D_2-Bachelor of Science in Business Computing</item>
+    <item>AL_KCOMP_D_3-Bachelor of Science in Business Computing</item>
+    <item>AL_KCOMP_G_5 Higher Diploma in Computing</item>
+    <item>AL_KGAME_B_2 BSc Software Design Game Development</item>
+    <item>AL_KGAME_B_3 BSc Software Design Games Development</item>
+    <item>AL_KGAME_B_4 BSc Software Design Games Development A</item>
+    <item>AL_KGAME_B_4 BSc Software Design Games Development B</item>
+    <item>AL_KNETW_8_Y4 BSc Network Mgmt and Cloud Infrastructure</item>
+    <item>AL_KNETW_D_3 BSc in Network Management</item>
+    <item>AL_KNTWM_7_2 BSc in Network Management</item>
+    <item>AL_KSCMP_8 Higher Diploma in Science in Computing</item>
+    <item>AL_KSENG_B_4 BEng in Software Engineering A</item>
+    <item>AL_KSENG_B_4 BEng in Software Engineering B</item>
+    <item>AL_KSWFT_R_5-Master of Science Software Engineering FT</item>
+    <item>AL_KWEBD_B_4 BSc in Software Design Web Development</item>
+    <item>AL_L6SIGMA_O Cert in Lean Six Sigma</item>
+    <item>AL_NCHBV_G HD in Science: Nursing and Behaviours that Challenge</item>
+    <item>AL_NCWPP_O SPA Child Protection and Welfare</item>
+    <item>AL_NDENT_7_3 BSc in Dental Practice Mgmt with Oral Health Promotion</item>
+    <item>AL_NDENT_C_1 Higher Certificate in Dental Nursing</item>
+    <item>AL_NDENT_C_2 HC in Dental Nursing</item>
+    <item>AL_NEOLC_O_1 SPA Cert in End of Life Care</item>
+    <item>AL_NGENR_B_1-Bachelor of Science (Honours) in General Nursing</item>
+    <item>AL_NGENR_B_2-Bachelor of Science (Honours)in General Nursing</item>
+    <item>AL_NGENR_B_3-Bachelor of Science (Honours) in General Nursing</item>
+    <item>AL_NGENR_B_4-Bachelor of Science (Honours) in General Nursing</item>
+    <item>AL_NGERO_O_1 SPA Gerontology</item>
+    <item>AL_NIDIS_9 MSc in Intellectual Disability Nurinsg Level 9 PTyear 2</item>
+    <item>AL_NPSYC_B_1-Bachelor of Science (Honours))in Psychiatric Nrs</item>
+    <item>AL_NPSYC_B_2-Bachelor of Science (Honours) in Psychiatric Nursing</item>
+    <item>AL_NPSYC_B_3-Bachelor of Science (Honours) in Psychiatric Nursing</item>
+    <item>AL_NPSYC_B_4-Bachelor of Science (Honours) in Psychiatric Nursing</item>
+    <item>AL_NVETN_D_1-BSc in Veterinary Nrs B</item>
+    <item>AL_NVETN_D_1-BSc in Veterinary Nrs A</item>
+    <item>AL_NVETN_D_2-BSc in Veterinary Nrs A</item>
+    <item>AL_NVETN_D_2-BSc in Veterinary Nrs B</item>
+    <item>AL_NVETN_D_3-BSc in Veterinary Nrs A</item>
+    <item>AL_NVETN_D_3-BSc in Veterinary Nrs B</item>
+    <item>AL_NVETP_8 BSc (Hons) Veterinary Practice Management</item>
+    <item>AL_OBARS_6_1A HC in Arts Bar Supervision</item>
+    <item>AL_OBARS_6_1B HC in Arts Bar Supervision</item>
+    <item>AL_OBARS_6_2 HC in Arts Bar Supervision</item>
+    <item>AL_OLEIS_7_1 BA in Hotel and Leisure Management</item>
+    <item>AL_OLEIS_7_2 BA in Hotel and Leisure Management</item>
+    <item>AL_OLEIS_7_3 BA in Hotel and Leisure Management</item>
+    <item>AL_OREST_7_1 SPA Diploma in Restaurant Management</item>
+    <item>AL_PRDEV_CE Adult Education Courses</item>
+    <item>AL_PRJMT_6CE Cert in Project Management</item>
+    <item>AL_PSYCH_O_1 Cert in Psychology</item>
+    <item>AL_QUALA_O Cert in Fundamentals of Quality Assurance</item>
+    <item>AL_SABIO_8 BSc (Hons add-on) Applied Biosciences 4</item>
+    <item>AL_SATOX_9 MSc Applied Toxicology</item>
+    <item>AL_SAUDG_8_4 BSc in Audiology</item>
+    <item>AL_SBIOT_8_1 BSc (Hons) in Biotechnology (ab-initio)</item>
+    <item>AL_SBIOT_8_2 BSc (Hons) in Biotechnology (ab-initio)</item>
+    <item>AL_SBIOT_8_3 BSc (Hons) in Biotechnology (ab-initio)</item>
+    <item>AL_SBIOT_B_4 BSc (Hons) Biotechnology</item>
+    <item>AL_SBIOT_D_1 BSc in Biotechnology</item>
+    <item>AL_SBIOT_D_2-BSc in Biotechnology</item>
+    <item>AL_SBIOT_D_3-BSc in Biotechnology A</item>
+    <item>AL_SBIOT_D_3-BSc in Biotechnology B</item>
+    <item>AL_SBIOV_8_1 BSc (Hons) in Bioveterinary Science</item>
+    <item>AL_SBIOV_8_2 BSc (Hons) in Bioveterinary Science</item>
+    <item>AL_SCBHV_O Cert in Challenging Behaviour (Part Time)</item>
+    <item>AL_SENVM_7CE_1 BSc in Environmental Health and Safety</item>
+    <item>AL_SENVM_7CE_2 BSc in Environmental Health and Safety</item>
+    <item>AL_SENVM_D_3-BSc Environmental Health and Safety Mgt</item>
+    <item>AL_SENVM_D_4-BSc Environmental Health and Safety Mgt</item>
+    <item>AL_SENVM_M_5-MSc Environmental HandS</item>
+    <item>AL_SENVM_M_6-MSc Environmental HandS</item>
+    <item>AL_SFORX_7_1 BSc in Forensic Toxicology</item>
+    <item>AL_SFORX_7_2 BSc in Forensic Toxicology</item>
+    <item>AL_SFORX_7_3 BSc (add on) Forensic Toxicology</item>
+    <item>AL_SFORX_7_3 BSc in Forensic Toxicology 3</item>
+    <item>AL_SHAID_6JN_1 HC in Hearing Aid Audiology January intake</item>
+    <item>AL_SHAID_6JN_2 HC in Hearing Aid Audiology Award</item>
+    <item>AL_SHAID_6_1 HC in Hearing Aid Audiology</item>
+    <item>AL_SHUTX_8_4 BSc (Hons add-on) Human and Animal Toxicology</item>
+    <item>AL_SNUTR_8_1 BSc(Hons) in Health Science with Nutrition</item>
+    <item>AL_SNUTR_8_2 BSc(Hons) in Health Science with Nutrition</item>
+    <item>AL_SNUTR_8_3 BSc(Hons) in Health Science with Nutrition</item>
+    <item>AL_SNUTR_8_4 BSc(Hons) in Health Science with Nutrition</item>
+    <item>AL_SOCHS_QCE_1 Occupational Health and Safety</item>
+    <item>AL_SPHAM_7_3 BSc Pharmacy Technician</item>
+    <item>AL_SPHAR_8_4 BSc (Hons) in Pharmaceutical Science</item>
+    <item>AL_SPHAR_B_1 BSc (ab-initio) in Pharmaceutical Science</item>
+    <item>AL_SPHAR_B_2 BSc (ab-initio) in Pharmaceutical Science</item>
+    <item>AL_SPHAR_B_3BSc (ab-initio) in Pharmaceutical Science</item>
+    <item>AL_SPHAR_B_4 BSc (Hons ab-initio) in Pharmaceutical Science</item>
+    <item>AL_SPHAR_C_1 - HC in Science Pharmacy Technician</item>
+    <item>AL_SPHAR_C_2 - HC in Science Pharmacy Technician</item>
+    <item>AL_SPHSC_7_1 BSc (ord) in Pharmaceutical Science</item>
+    <item>AL_SPHSC_7_2 BSc (ord) in Pharmaceutical Science</item>
+    <item>AL_SPHSC_7_3 BSc (ord) in Pharmaceutical Science</item>
+    <item>AL_SPTEX_8_1 BSc (Hons) in Sports Science with Exercise Physiology</item>
+    <item>AL_SPTEX_8_2 BSc (Hons) in Sports Science with Exercise Physiology</item>
+    <item>AL_SPTEX_8_3 BSc (Hons) in Sports Science with Exercise Physiology</item>
+    <item>AL_SPTEX_8_4 BSc (Hons) in Sports Science with Exercise Physiology</item>
+    <item>AL_SREHAB_8_1 BSc (Hons) in Athletic and Rehabilitation Therapy</item>
+    <item>AL_SREHAB_8_2 BSc (Hons) in Athletic and Rehabilitation Therapy</item>
+    <item>AL_SREHAB_8_3 BSc (Hons) in Athletic and Rehabilitation Therapy</item>
+    <item>AL_SREHAB_8_4 BSc (Hons) in Athletic and Rehabilitation Therapy</item>
+    <item>AL_SSCIE_C_1 Higher Certificate in Science</item>
+    <item>AL_SSCIE_C_2 Higher Certificate in Science</item>
+    <item>AL_STOXA_B_4 Bachelor of Science (Honours) Toxicology</item>
+    <item>AL_STOXI_B_3- BSc (Hons) Toxicology A</item>
+    <item>AL_STXFD_9_5 MSc in Food and Drug Toxicology</item>
+    <item>AL_TINTL_FJN_Y1 Foundation Cert in Academic Studies for International Students</item>
+    <item>AL_TINTL_F_Y1 Foundation Cert in Academic Studies for International Students</item>
+    <item>BEng (Hons) in Manufacturing Technology</item>
+    <item>Cert in Mental Health</item>
+    <item>Cert in Smart Home Technology</item>
+    <item>FS_CBRIC_T Bricklayer Phase6</item>
+    <item>FS_CBRIC_T-Bricklayer Phase4</item>
+    <item>FS_CPLAS_T Plasterer Phase 6</item>
+    <item>FS_CPLAS_TPlasterer Phase 4</item>
+    <item>FS_CPLUM_T-Plumber Phase 6 Grp 1</item>
+    <item>FS_CPLUM_T-Plumber Phase4 Grp 1</item>
+    <item>FS_EHVME_T Heavy Vehical Mechanic Phase4 Group 1</item>
+    <item>FS_EHVME_T Heavy Vehical Mechanic Phase4 Group 2</item>
+    <item>FS_EHVME_T Heavy Vehical Mechanic Phase6</item>
+    <item>FS_EMOME_T Motor Mechanic Phase4</item>
+    <item>FS_EMOME_TMotor Mechanic Phase6</item>
+    <item>Higher Cert in Business in Entrepreneurship and Innovation</item>
+    <item>RSA Training</item>
+</string-array>
+
+<string name="title_activity_start_screen">StartScreen</string>
+<string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
+
